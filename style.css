@@ -1,0 +1,127 @@
+header {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #1a1c27;
+    width: 100%;
+    height: 100px;
+}
+a {
+    float: right;
+    padding: 5px;
+    font-size: 25px;
+    font-style: oblique;
+    color: blanchedalmond;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+a:hover {
+    background-color: black;
+    width: 150px;
+}
+.ab{
+    float: left;
+}
+h1 {
+    color: blanchedalmond;
+    font-style: oblique;
+}
+footer {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #1a1c27;
+    width: 100%;
+    height: 170px;
+    bottom: 0px;
+    left: 0px;
+}
+.f1{
+    position: relative;
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    width: 32%;
+    margin-left: 10px;
+    margin-right: 2px;
+    margin-top: 5px;
+    float: left;
+}
+.carea {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: row;
+}
+.carea1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.box {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding: 15px;
+    width: 33.3333%;
+}
+.box2 {
+    width: 80%;
+}
+.box3 {
+    width: 95%;
+    font-style: oblique;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+    background-color: #1a1c23;
+    width: 100%;
+}
+.i {
+    float: right;
+}
+.p1{
+    color: blanchedalmond;
+}
+.p11{
+    color: blanchedalmond;
+    font-size: 20px;
+    float: left;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
